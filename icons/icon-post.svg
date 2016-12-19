@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 15.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Line_6" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="2880px" height="2880px" viewBox="0 0 2880 2880" enable-background="new 0 0 2880 2880" xml:space="preserve">
+<g>
+	<path fill="#FFFFFF" d="M2520,180c47.682,0,92.774,18.833,126.971,53.029C2681.168,267.226,2700,312.318,2700,360v2160
+		c0,47.682-18.832,92.774-53.029,126.971C2612.774,2681.168,2567.682,2700,2520,2700H360c-47.682,0-92.774-18.832-126.971-53.029
+		C198.833,2612.774,180,2567.682,180,2520V360c0-47.682,18.833-92.774,53.029-126.971C267.226,198.833,312.318,180,360,180H2520
+		 M2520,0H360C162,0,0,162,0,360v2160c0,198,162,360,360,360h2160c198,0,360-162,360-360V360C2880,162,2718,0,2520,0L2520,0z"/>
+</g>
+<line fill="none" stroke="#FFFFFF" stroke-width="180" stroke-linecap="round" stroke-miterlimit="10" x1="545.502" y1="808.5" x2="2344.5" y2="808.5"/>
+<line fill="none" stroke="#FFFFFF" stroke-width="180" stroke-linecap="round" stroke-miterlimit="10" x1="545.502" y1="1525.572" x2="2344.5" y2="1525.572"/>
+<line fill="none" stroke="#FFFFFF" stroke-width="180" stroke-linecap="round" stroke-miterlimit="10" x1="545.502" y1="2242.644" x2="2344.5" y2="2242.644"/>
+</svg>
