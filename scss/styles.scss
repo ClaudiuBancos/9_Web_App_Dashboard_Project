@@ -8,7 +8,6 @@ p {
 
 ul, li {
 	list-style: none;
-	padding: 0;
 }
 
 
@@ -216,6 +215,10 @@ h2 {
 /* Main Traffic
 ================ */
 
+.main_traffic {
+	margin-bottom: 10px;
+}
+
 .main_traffic_header ul {
 	margin-top: 0;
 	display: flex;
@@ -246,8 +249,8 @@ h2 {
 .main_traffic_monthly_chart,
 .main_traffic_daily_chart,
 .daily_traffic_chart {
-	width: 300px !important;
-	height: 300px !important;
+	width: 100% !important;
+	height: 100% !important;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -261,8 +264,8 @@ h2 {
 
 
 .mobile_users_chart {
-	width: 300px !important;
-	height: 200px !important;
+	width: 100% !important;
+	height: 66% !important;
 	margin-left: auto;
 	margin-right: auto;
 	margin-bottom: 20px;

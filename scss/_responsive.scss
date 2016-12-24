@@ -6,12 +6,16 @@
 
 	/* Charts
 	========== */
+	.main_traffic {
+		padding-bottom: 10px;
+	}
+
 	.main_traffic_hourly_chart,
 	.main_traffic_weekly_chart,
 	.main_traffic_monthly_chart,
 	.main_traffic_daily_chart {
-		width: 700px !important;
-		height: 400px !important;
+		width: 100% !important;
+		height: 66% !important;
 	}
 
 	.charts_and_socials_flexbox {
@@ -19,9 +23,16 @@
 		justify-content: space-around;
 	}
 
+	.daily_and_mobile_wrapper {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+		width: 80%;
+	}
+
 	.daily_traffic_chart,
 	.mobile_users_chart {
-		width: 400px !important;
+		width: 100% !important;
 	}
 
 	/* Socials
@@ -156,7 +167,7 @@
 	.main_traffic_monthly_chart,
 	.main_traffic_daily_chart {
 		width: 100% !important;
-		height: 500px !important;
+		height: 66% !important;
 		margin-left: -20px;
 	}
 
@@ -166,10 +177,13 @@
 
 	.daily_and_mobile_wrapper {
 		display: flex;
+		flex-direction: row;
+		width: 100%;
 	}
 
 	.daily_traffic {
 		width: 50%;
+		height: 100%;
 		border-bottom: none;
 		border-right: solid 1px black;
 	}
@@ -183,8 +197,8 @@
 	}
 
 	.mobile_users_chart {
-		width: 500px !important;
-		height: 300px !important;
+		width: 100% !important;
+		height: 75% !important;
 	}
 
 	/* Socials
@@ -266,6 +280,12 @@
 
 	.message_search_bar {
 		height: 30px;
+	}
+
+	.choose_div {
+		top: 100px;
+		width: 96%;
+		margin-bottom: 20px;
 	}
 
 	.settings {

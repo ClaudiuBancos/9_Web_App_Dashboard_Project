@@ -2,21 +2,34 @@
     Tablet Styling  
    ================= */
 @media (min-width: 768px) {
+  /* Charts
+  ========== */
+  .main_traffic {
+    padding-bottom: 10px; }
+
   .main_traffic_hourly_chart,
   .main_traffic_weekly_chart,
   .main_traffic_monthly_chart,
   .main_traffic_daily_chart {
-    width: 700px !important;
-    height: 400px !important; }
+    width: 100% !important;
+    height: 66% !important; }
 
   .charts_and_socials_flexbox {
     display: flex;
     justify-content: space-around; }
 
+  .daily_and_mobile_wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 80%; }
+
   .daily_traffic_chart,
   .mobile_users_chart {
-    width: 400px !important; }
+    width: 100% !important; }
 
+  /* Socials
+  =========== */
   .social_stats {
     width: 280px; }
     .social_stats .section_title {
@@ -30,6 +43,8 @@
     padding-bottom: 10px;
     padding-left: 10px; }
 
+  /* New Members, Recent Activity, and Message User
+  ================================================== */
   .new_members_and_recent_activity {
     display: flex;
     justify-content: space-between;
@@ -48,6 +63,8 @@
     Desktop Styling  
    ================= */
 @media (min-width: 1025px) {
+  /* Header Area and Sidebar
+  =========================== */
   header h1 {
     flex-grow: 1.5;
     font-size: 1.5em;
@@ -94,6 +111,8 @@
     width: 95%;
     padding-left: 10px; }
 
+  /* Charts
+  ========== */
   .main_traffic_header {
     display: flex;
     justify-content: space-between; }
@@ -108,17 +127,20 @@
   .main_traffic_monthly_chart,
   .main_traffic_daily_chart {
     width: 100% !important;
-    height: 500px !important;
+    height: 66% !important;
     margin-left: -20px; }
 
   .charts_and_socials_flexbox {
     display: inherit; }
 
   .daily_and_mobile_wrapper {
-    display: flex; }
+    display: flex;
+    flex-direction: row;
+    width: 100%; }
 
   .daily_traffic {
     width: 50%;
+    height: 100%;
     border-bottom: none;
     border-right: solid 1px black; }
 
@@ -129,9 +151,11 @@
     width: 50%; }
 
   .mobile_users_chart {
-    width: 500px !important;
-    height: 300px !important; }
+    width: 100% !important;
+    height: 75% !important; }
 
+  /* Socials
+  =========== */
   .social_stats {
     width: 100%;
     border-top: solid 1px black; }
@@ -149,6 +173,8 @@
   .social_text {
     max-width: 60%; }
 
+  /* New Members and Recent Activity
+  =================================== */
   .new_members {
     width: 50%;
     border-right: solid 1px black;
@@ -166,13 +192,12 @@
     .name_and_email table {
       width: 100%; }
 
-  .date {
-    align: right; }
-
   .recent_activity {
     width: 50%;
     padding-left: 10px; }
 
+  /* Message User and Settings
+  ============================= */
   .message_and_settings {
     display: flex;
     flex-direction: row;
@@ -188,6 +213,10 @@
 
   .message_search_bar {
     height: 30px; }
+
+  .choose_div {
+    top: 100px;
+    width: 95%; }
 
   .settings {
     width: 48%;

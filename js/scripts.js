@@ -129,7 +129,7 @@ var mainTrafficHourlyChart = new Chart(mainTrafficHourlyChart, {
 	    }]
 	},
 	options: {
-    	responsive: false,
+    	responsive: true,
     	fontSize: 5,
         scales: {
             yAxes: [{
@@ -163,7 +163,7 @@ var mainTrafficWeeklyChart = new Chart(mainTrafficWeeklyChart, {
 	    }]
 	},
 	options: {
-    	responsive: false,
+    	responsive: true,
         scales: {
             yAxes: [{
                 ticks: {
@@ -174,7 +174,7 @@ var mainTrafficWeeklyChart = new Chart(mainTrafficWeeklyChart, {
             }],
             xAxes: [{
            		ticks: {
-                	fontSize: 10
+                	fontSize: 14
             	}
         	}]
         }
@@ -195,7 +195,7 @@ var mainTrafficMonthlyChart = new Chart(mainTrafficMonthlyChart, {
 	    }]
 	},
 	options: {
-    	responsive: false,
+    	responsive: true,
         scales: {
             yAxes: [{
                 ticks: {
@@ -227,7 +227,7 @@ var mainTrafficDailyChart = new Chart(mainTrafficDailyChart, {
 	    }]
 	},
 	options: {
-    	responsive: false,
+    	responsive: true,
         scales: {
             yAxes: [{
                 ticks: {
@@ -266,7 +266,7 @@ var dailyTrafficChart = new Chart(dailyTrafficChart, {
         ]
     },
     options: {
-    	responsive: false,
+    	responsive: true,
         scales: {
             yAxes: [{
                 ticks: {
@@ -300,7 +300,7 @@ var mobileUsersChart = new Chart(mobileUsersChart, {
 	    }]
 	},
 	options: {
-		responsive: false
+		responsive: true
 	}
 });
 
@@ -437,7 +437,7 @@ $(document).ready(function($) {
 		selectedTimeZone = $(".timezone_selector option:selected");
 		selectedTimeZone[0].selected = false;
 		foundTimeZoneID = localStorage.getItem("timeZoneID");
-		$(".timezone_selector option[timeZoneID=" + foundTimeZoneID + "]")[0].selected = true;
+		$(".timezone_selector option[value=" + foundTimeZoneID + "]")[0].selected = true;
 	}
 });
 

@@ -5,8 +5,7 @@ p {
   margin-top: 0; }
 
 ul, li {
-  list-style: none;
-  padding: 0; }
+  list-style: none; }
 
 /* HEADER
 ========== */
@@ -165,6 +164,9 @@ h2 {
 
 /* Main Traffic
 ================ */
+.main_traffic {
+  margin-bottom: 10px; }
+
 .main_traffic_header ul {
   margin-top: 0;
   display: flex;
@@ -191,8 +193,8 @@ h2 {
 .main_traffic_monthly_chart,
 .main_traffic_daily_chart,
 .daily_traffic_chart {
-  width: 300px !important;
-  height: 300px !important;
+  width: 100% !important;
+  height: 100% !important;
   margin-left: auto;
   margin-right: auto; }
 
@@ -203,8 +205,8 @@ h2 {
   padding-right: 10px; }
 
 .mobile_users_chart {
-  width: 300px !important;
-  height: 200px !important;
+  width: 100% !important;
+  height: 66% !important;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 20px; }
@@ -505,20 +507,29 @@ Customized by me.
 @media (min-width: 768px) {
   /* Charts
   ========== */
+  .main_traffic {
+    padding-bottom: 10px; }
+
   .main_traffic_hourly_chart,
   .main_traffic_weekly_chart,
   .main_traffic_monthly_chart,
   .main_traffic_daily_chart {
-    width: 700px !important;
-    height: 400px !important; }
+    width: 100% !important;
+    height: 66% !important; }
 
   .charts_and_socials_flexbox {
     display: flex;
     justify-content: space-around; }
 
+  .daily_and_mobile_wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 80%; }
+
   .daily_traffic_chart,
   .mobile_users_chart {
-    width: 400px !important; }
+    width: 100% !important; }
 
   /* Socials
   =========== */
@@ -619,17 +630,20 @@ Customized by me.
   .main_traffic_monthly_chart,
   .main_traffic_daily_chart {
     width: 100% !important;
-    height: 500px !important;
+    height: 66% !important;
     margin-left: -20px; }
 
   .charts_and_socials_flexbox {
     display: inherit; }
 
   .daily_and_mobile_wrapper {
-    display: flex; }
+    display: flex;
+    flex-direction: row;
+    width: 100%; }
 
   .daily_traffic {
     width: 50%;
+    height: 100%;
     border-bottom: none;
     border-right: solid 1px black; }
 
@@ -640,8 +654,8 @@ Customized by me.
     width: 50%; }
 
   .mobile_users_chart {
-    width: 500px !important;
-    height: 300px !important; }
+    width: 100% !important;
+    height: 75% !important; }
 
   /* Socials
   =========== */
@@ -702,6 +716,11 @@ Customized by me.
 
   .message_search_bar {
     height: 30px; }
+
+  .choose_div {
+    top: 100px;
+    width: 96%;
+    margin-bottom: 20px; }
 
   .settings {
     width: 48%;
